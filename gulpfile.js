@@ -14,6 +14,15 @@ require('laravel-elixir-vue-2');
  */
 
 elixir((mix) => {
-    mix.sass('app.scss')
-       .webpack('app.js');
+    //mix.sass('app.scss');
+    //mix.webpack('app.js');
+    mix.styles('./bower_components/lumx/dist/lumx.css');
+    mix.styles('./bower_components/mdi/css/materialdesignicons.css');
+    mix.scripts('./bower_components/jquery/dist/jquery.js');
+    mix.scripts('./bower_components/velocity/velocity.js');
+    mix.scripts('./bower_components/moment/min/moment-with-locales.js');
+    mix.scripts('./bower_components/angular/angular.js');
+    mix.scripts('./bower_components/lumx/dist/lumx.js');
+    mix.copy('./bower_components/mdi/fonts', 'public/fonts');
+
 });
