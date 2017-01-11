@@ -1,0 +1,17 @@
+{
+  "name": "laravellumx",
+  "description": "",
+  "main": "",
+  "authors": [
+    "J-Ibarra <ibarrajj@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
